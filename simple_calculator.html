@@ -7,12 +7,13 @@
 
         <link rel="stylesheet" href="simple_calculator.css">      <!-- Link with CSS -->
 
+        <script src="https://cdn.tailwindcss.com"></script>       <!-- Link with Tailwind CSS -->
         <script src="simple_calculator.js"></script>              <!-- Link with JS -->
 
 
     </head>
 
-    <body>
+    <main>
 
          <div id="calculatorBox">
 
@@ -54,6 +55,15 @@
             </div>
 
          </div>
-        
-    </body>
+    
+    </main>
+
+    <footer>
+        <section style="display: flex; align-items: center; justify-content: center;">
+            <button onclick="window.location.href='index.html'"
+                class="mt-6 px-6 py-2 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-semibold rounded-full shadow-lg hover:from-blue-500 hover:to-cyan-500 hover:scale-105 transition-all duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-cyan-400 text-white">
+                Back to Home Page
+            </button>
+         </section>
+    </footer>
 </html>
