@@ -118,9 +118,9 @@ body
 {
     background-color: #FA921C;
     color: white;
-    transition: background-color 0.3s, color 0.3s, transform 0.2s;
-    transform: translateY(-2px) scale(1.05);
-    box-shadow: 0 4px 12px rgba(250, 146, 28, 0.15);
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 4px 12px rgba(250, 146, 28, 0.10);
 
 }
 
@@ -128,9 +128,9 @@ body
 {
     background-color: #FA921C;
     color: white;
-    transition: background-color 0.3s, color 0.3s, transform 0.2s;
-    transform: translateY(-2px) scale(1.05);
-    box-shadow: 0 4px 12px rgba(250, 146, 28, 0.15);
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 4px 12px rgba(250, 146, 28, 0.10);
     border: none;
 }
 
@@ -208,9 +208,5 @@ body
 
 /* Apply the animation to the HR line */
 #Footer hr {
-    animation: slideIn 2.0s ease-out forwards; /* Run the animation once */
-}
-
-#block hr {
     animation: slideIn 2.0s ease-out forwards; /* Run the animation once */
 }
